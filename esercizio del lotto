@@ -1,0 +1,9 @@
+import random
+mylist = []
+i = 0
+while (i < 5):
+    x = random.randint(1,90)
+    if(x not in mylist):
+        mylist.append(x)
+    i = i + 1
+print(sorted(mylist))
